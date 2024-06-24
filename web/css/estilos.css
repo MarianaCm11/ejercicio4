@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+h4{
+    font-size: 25px;
+}
+
+.h{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+
+body {
+	display:flex; 
+    justify-content: center;
+	align-items: center;
+    min-height: 100vh;
+    /* font-family: "Raleway", sans-serif; */
+	background-color: #f3fcfff6;
+}
+
+button {
+    margin-top: 10px;
+	outline: none;
+	border: none;
+	background-color: #34ad83;
+	color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #299770;
+}
